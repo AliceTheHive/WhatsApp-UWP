@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" IgnorableNamespaces="uap mp">
-  <Identity Name="01fe47f4-d4bd-4d7a-968a-cf8f9a5bd881" Version="1.0.0.0" Publisher="CN=mkearn" />
+  <Identity Name="01fe47f4-d4bd-4d7a-968a-cf8f9a5bd881" Version="1.0.1.0" Publisher="CN=mkearn" />
   <mp:PhoneIdentity PhoneProductId="01fe47f4-d4bd-4d7a-968a-cf8f9a5bd881" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>WhatsApp</DisplayName>
@@ -18,13 +18,13 @@
       <uap:ApplicationContentUriRules>
         <uap:Rule Match="https://web.whatsapp.com/" Type="include" WindowsRuntimeAccess="all" />
       </uap:ApplicationContentUriRules>
-      <uap:VisualElements DisplayName="WhatsApp" Description="WhatsApp" BackgroundColor="transparent" Square150x150Logo="images\Square150x150Logo.png" Square44x44Logo="images\Square44x44Logo.png">
+      <uap:VisualElements DisplayName="WhatsApp" Description="WhatsApp" BackgroundColor="#E5DDD5" Square150x150Logo="images\Square150x150Logo.png" Square44x44Logo="images\Square44x44Logo.png">
         <uap:DefaultTile Wide310x150Logo="images\Wide310x150Logo.png" ShortName="WhatsApp" Square310x310Logo="images\Square310x310Logo.png" Square71x71Logo="images\Square71x71Logo.png">
           <uap:ShowNameOnTiles>
             <uap:ShowOn Tile="square310x310Logo" />
           </uap:ShowNameOnTiles>
         </uap:DefaultTile>
-        <uap:SplashScreen Image="images\splashscreen.png" />
+        <uap:SplashScreen Image="images\splashscreen.png" BackgroundColor="#E5DDD5" />
       </uap:VisualElements>
     </Application>
   </Applications>
